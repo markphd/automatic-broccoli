@@ -1484,12 +1484,12 @@ p.para1{
 .contact-grid {
   padding-left: 0;
 }
-p.location, p.mail, p.phone {
+p.location, p.mail, p.phone, p.hour {
   color: #777;
   font-size: 1em;
   margin-top: 0.9em;
 }
-p.location i, p.mail i, p.phone i {
+p.location i, p.mail i, p.phone i, p.hour i {
       color: #2A292B;
   font-size:0.9em;
   margin: 0 0.5em;
@@ -3341,3 +3341,63 @@ label {
     background: url('http://kubyshkin.ru/samples/star-rating/star.png') 0 -16px;
 }
 
+/* FOOTER */
+
+.footer-background-wrap .footer-wrap {
+	width: 100%;
+	overflow: visible;
+	padding: 20px 0 30px;
+	position: relative;
+	background: url(http://directory1.wpjavo.com/wp-content/uploads/sites/7/2016/10/jv-worldmap-footer.png) no-repeat; 
+	background-position: 95% 50%;
+}
+
+.footer-background-wrap {
+	background-color: #BBB7B8;
+	position: relative;
+}
+
+.footer-separator: {
+	border-top: 1px solid #484848;
+}
+
+.footer-info {
+	color: #777;
+	font-size: 13px;
+	line-height: 20px;
+	margin-bottom: 30px;
+	padding-top: 40px;
+}
+
+.footer-info-social-icon-wrap {
+	margin-top: 14px;
+	display: table;
+	width: 100%;
+}
+
+.footer-info-image {
+	width: auto;
+	height: auto;
+}
+
+.footer-info-social {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 20px;
+	float: left;
+	margin: 0 10px;
+}
+
+.footer.footer-wrap {
+	background-color: transparent !important;
+	border: none;
+}
+
+.footer-text-title {
+	margin-top: 10px;
+	margin-bottom: 30px;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #33384A;
+}

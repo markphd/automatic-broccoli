@@ -3160,7 +3160,6 @@ p.location i, p.mail i, p.phone i, p.hour i {
 	font-weight:400;
 	font-size: smaller;
 	margin-top: 1em;
-	margin-bottom: 0.5em;
 }
 label {
 	color:#6094bc;
@@ -3364,8 +3363,13 @@ ul.navbar-nav {
 	background-color: aliceblue;
 }
 
+.latest-offer {
+	padding: 1%;
+	margin: 10px 0;
+}
+
 .user-section-head {
-	border-bottom: 1px solid #B32B3B; margin-bottom: 3%; padding-bottom: 1%;
+	border-bottom: 4px solid #B32B3B; margin-bottom: 3%; padding-bottom: 1%;
 }
 
 .list-group-item.section-head {

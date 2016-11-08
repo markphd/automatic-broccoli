@@ -3130,7 +3130,7 @@ p.location i, p.mail i, p.phone i, p.hour i {
   content: "\e200";
 }
 .profile {
-	background-color:#efefef;
+	/*background-color:#efefef;*/
 	padding: 1em;
 }
 .profile h3 {
@@ -3339,6 +3339,56 @@ label {
     width: 16px;
     height: 16px;
     background: url('http://kubyshkin.ru/samples/star-rating/star.png') 0 -16px;
+}
+
+/* NAVIGATION */
+
+nav.navbar {
+	margin-bottom: 0px;
+	text-align: center;
+	border-bottom: none;
+	background-color: #fff;
+	box-shadow: 0 4px 5px -2px rgba(0,0,0,0.22), 0 2px 1px -1px rgba(0,0,0,0.05);
+	border-radius: 0px;
+}
+
+ul.navbar-nav {
+	margin-top: 15px;
+}
+
+
+/* USER HOME */
+
+#home {
+	margin-top: 4%;
+	background-color: aliceblue;
+}
+
+.user-section-head {
+	border-bottom: 1px solid #B32B3B; margin-bottom: 3%; padding-bottom: 1%;
+}
+
+.list-group-item.section-head {
+	border: none;
+	background-color: #33384A;
+	color: #ccc;
+	/*background-color: #BBB7B8;*/
+	/*background-color: #D1EAFB;*/
+}
+
+a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
+    border-color: #33384A;
+}
+
+/* PROFILE SIDEBAR */
+
+#profile-sidebar {
+	/*font-size: 0.5em;*/
+}
+
+#profile-sidebar img {
+	border-radius: 50%;
+	width: 30%;
 }
 
 /* FOOTER */

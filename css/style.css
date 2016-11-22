@@ -3433,7 +3433,7 @@ Top Navigation
 }
 .tabs-navigation a.selected {
   background-color: #ffffff;
-  box-shadow: inset 0 2px 0 #b32b3b;
+  box-shadow: inset 0 2px 0 #5a94b7;
   color: #29324e;
 }
 
@@ -3504,10 +3504,10 @@ Tabs content
 
 .footer-info {
 	color: #777;
-	font-size: 13px;
-	line-height: 20px;
+	font-size: 17px;
+	line-height: 22px;
 	margin-bottom: 30px;
-	padding-top: 40px;
+	padding: 1% 1.5em;
 }
 
 .footer-info-social-icon-wrap {

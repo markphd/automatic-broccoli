@@ -3581,6 +3581,9 @@ Tabs content
 	min-height: 200px;
 	text-align: center;
 	border: 3px solid aliceblue;
+	-webkit-box-shadow: 3px 3px 6px #777;
+	-moz-box-shadow: 3px 3px 6px #777;
+	box-shadow: 3px 3px 6px #777;
 }
 
 .deals a {

@@ -3583,13 +3583,22 @@ Tabs content
 	border: 3px solid aliceblue;
 }
 
+.deals a {
+	height: 100px;
+	width: 100px;
+}
+
 .deals:hover {
 	background-color: #B32B3B;
 }
 
 .deals h3 {
 	text-transform: uppercase;
-	line-height: 200px;
+	/*line-height: 200px;*/
+	position: absolute;
+	top: 80px;
+	right: 0;
+	left: 0;
 }
 
 /* PROFILE SIDEBAR */
